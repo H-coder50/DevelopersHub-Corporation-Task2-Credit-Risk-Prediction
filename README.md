@@ -26,7 +26,18 @@ The following steps were taken to complete the task:
 - Confusion Matrix
 - Classification Report
 ### Results and insights:
-  Decision Tree Classifier accuracy is better than Lagistic Regression
+#### 🌳 Decision Tree:
+- Accuracy: 88.51%
+- Captures both classes well, especially defaults (class 1).
+- Strong choice for imbalanced datasets.
+- Slightly more false positives, but better recall.
+#### 📈 Logistic Regression:
+- Accuracy: 83.71%
+- Performs well on majority class (paid loans).
+- Misses many defaults — lower recall for class 1.
+- More conservative, fewer false alarms.
+  
+Decision Tree Classifier accuracy is better than Lagistic Regression
 
 
 
